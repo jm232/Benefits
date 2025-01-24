@@ -1,0 +1,20 @@
+UI Session expires and user is still logged in
+
+When session of UI is expired due to inactivity of user, then user is still logged in, even any actions (add,edit,delete) are not successful
+So user should be automatically logged out, when session expires.
+
+Example from server: 
+{
+    "type": "https://tools.ietf.org/html/rfc7235#section-3.1",
+    "title": "Unauthorized",
+    "status": 401,
+    "traceId": "0HN9SKKQ7PKV5"
+}
+
+How to reproduce:
+
+Login to UI
+Wait 10 minutes and then try to add new employee
+
+
+

@@ -1,0 +1,15 @@
+Fields First Name and Last Name are not validated
+
+Fields First Name and Last Name in "Add Employee" and "Edit Employee" dialog are not validated properly.
+Although max string value do not allow creation of employee, there is no information for end user on UI side
+
+
+How to reproduce:
+
+Login to Benefits UI
+Click on "Add Employee" button
+Fill in to First Name and Last Name more than maxLength value > 50, and click on "Add" button
+
+
+
+

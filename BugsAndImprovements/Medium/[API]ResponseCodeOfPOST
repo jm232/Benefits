@@ -1,0 +1,20 @@
+Response Code of POST call returns incorrect status code
+
+
+Base on REST API standards, POST call should return 201 response, not 200
+
+How to reproduce:
+
+curl --location 'https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/api/employees' \
+--header 'Authorization: Basic {{token}}' \
+--header 'Content-Type: application/json' \
+--data '{
+    "firstName": "Natasha",
+    "lastName": "Romanoff",
+    "dependants": 3
+}'
+
+Response code: 200
+
+
+

@@ -1,0 +1,13 @@
+Edit Modal dialog contains incorrect text
+
+
+Edit modal dialog contains header "Add Employee", but there should be "Edit Employee"
+
+How to reproduce:
+
+Login to Benefits UI
+Click on edit button for any employee
+
+
+
+

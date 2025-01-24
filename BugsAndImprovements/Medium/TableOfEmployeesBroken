@@ -1,0 +1,13 @@
+Table of employees is broken when name of employees is long
+
+Table size is not considering maxlength of First Name or Last Name of employees, in case of long names, table is shifted.
+
+How to reproduce:
+
+Login to Benefits UI
+Click on "Add Employee" button
+Fill in value of First Name and Last Name ~40 chars and click on "Add" button
+
+
+
+

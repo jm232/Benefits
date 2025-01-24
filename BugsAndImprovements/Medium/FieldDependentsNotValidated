@@ -1,0 +1,15 @@
+Field Dependents is not validated
+
+Field "Dependents" for "Add Employee" and "Edit Employee" dialog is not validated properly.
+
+There is no frontend validation and no warning for end user who is trying to put non int value, employee is not created but validation should be placed.
+
+How to reproduce:
+
+Login to Benefits UI
+Click on "Add Employee" button
+Fill in to Dependents string value or decimal value
+
+
+
+

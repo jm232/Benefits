@@ -1,0 +1,40 @@
+{
+  "specFlow": {
+    "language": {
+      "feature": "en-US"
+    },
+    "binding": {
+      "culture": "en-US",
+      "stepDefinitionSkeletonStyle": "method"
+    },
+    "runtime": {
+      "stopAtFirstError": false,
+      "skipParallelizableScenarios": false,
+      "missingOrPendingStepDefinitionIsError": true,
+      "ignoreTestFailures": false
+    },
+    "reporters": [
+      {
+        "name": "SpecFlowNUnitReporter",
+        "enabled": true,
+        "outputDirectory": "TestResults"
+      },
+      {
+        "name": "HtmlReporter",
+        "enabled": true,
+        "outputDirectory": "TestResults",
+        "fileName": "SpecFlowReport.html"
+      }
+    ],
+    "generator": {
+      "allowDebugGeneratedFiles": false,
+      "suppressStrongNameSignatures": false
+    },
+    "plugins": [
+      {
+        "name": "SpecFlow.PluginX",
+        "enabled": true
+      }
+    ]
+  }
+}
